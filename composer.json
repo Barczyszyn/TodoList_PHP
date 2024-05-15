@@ -1,0 +1,21 @@
+{
+    "name": "fernando-marangon/todo-list",
+    "description": "To do List in PHP",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.13",
+        "slim/psr7": "^1.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FernandoMarangon\\TodoList\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fernando Barczyszyn Marangon",
+            "email": "fernando.barczyszyn@gmail.com"
+        }
+    ]
+}
